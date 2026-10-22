@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strata: notes, docs and databases that stay on your machine</title>
+    <meta name="description" content="Strata is a free, local-first workspace for notes, docs and databases, with a private AI that runs on your own computer. No account, no cloud, no tracking." />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0d0c11" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)" />
+    <meta property="og:title" content="Strata: think in layers, own every one" />
+    <meta property="og:description" content="A local-first workspace with private AI. Free, in your browser or on your Mac." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/strata/strata.svg" type="image/svg+xml" />
+    <script>
+      // Apply a saved theme before first paint so there is no flash.
+      try { const t = localStorage.getItem("strata-landing-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+    </script>
+    <script type="module" crossorigin src="/strata/assets/landing-DB_zYZ97.js"></script>
+    <link rel="modulepreload" crossorigin href="/strata/assets/fraunces-Bw4xECud.js">
+    <link rel="stylesheet" crossorigin href="/strata/assets/fraunces-CSucOKDI.css">
+    <link rel="stylesheet" crossorigin href="/strata/assets/landing-CQ-tHzle.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav" data-nav>
+      <div class="wrap nav-inner">
+        <a class="brand" href="#top" aria-label="Strata home">
+          <img src="/strata/strata.svg" alt="" width="28" height="28" />
+          <span>Strata</span>
+        </a>
+        <nav class="nav-links" aria-label="Sections">
+          <a href="#features">Features</a>
+          <a href="#tour">Tour</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">
+            <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" /><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" /></svg>
+            <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4a8.2 8.2 0 1 0 10.5 10.5z" /></svg>
+          </button>
+          <a class="btn btn-small btn-primary" href="app/" data-open-app>Open Strata</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============================================================ hero -->
+      <section class="hero" id="top">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="glow glow-a"></div>
+          <div class="glow glow-b"></div>
+          <svg class="contours" viewBox="0 0 1200 600" preserveAspectRatio="none">
+            <path d="M0 420 C 200 360, 380 470, 600 400 S 1000 330, 1200 380" />
+            <path d="M0 460 C 220 400, 400 510, 620 440 S 1000 370, 1200 420" />
+            <path d="M0 500 C 240 440, 420 550, 640 480 S 1000 410, 1200 460" />
+            <path d="M0 540 C 260 480, 440 590, 660 520 S 1000 450, 1200 500" />
+          </svg>
+        </div>
+
+        <div class="wrap hero-copy">
+          <p class="eyebrow reveal"><span class="dot"></span> Free · Local-first · Private AI</p>
+          <h1 class="reveal">Think in layers.<br /><em>Own every one.</em></h1>
+          <p class="lede reveal">
+            Strata is a workspace for notes, docs and databases that lives on <strong>your</strong> machine, with an AI that never
+            leaves it. No account. No cloud. Nothing to wait for.
+          </p>
+          <div class="cta-row reveal">
+            <a class="btn btn-primary btn-big" href="app/" data-open-app>
+              <span class="btn-label">Open Strata</span>
+              <span class="btn-sub">free, in your browser</span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>
+            </a>
+            <a class="btn btn-ghost btn-big" href="https://github.com/Ladzgo/strata/releases/download/v0.1.0/Strata_0.1.0_aarch64.dmg" data-download>
+              <svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.8-1.1-2.8-4.2zM13.9 5.1c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z" /></svg>
+              <span class="btn-label">Download for Mac</span>
+              <span class="btn-sub">v0.1.0 · Apple silicon</span>
+            </a>
+          </div>
+          <p class="fine reveal">No signup. Your workspace is saved in this browser and works offline.</p>
+        </div>
+
+        <div class="wrap stack-wrap">
+          <div class="stack" data-stack aria-label="Strata screenshots">
+            <figure class="layer layer-3">
+              <img src="/strata/assets/graph-DhctLhqp.jpg" srcset="/strata/assets/graph-sm-D-GpHQ0A.jpg 1100w, /strata/assets/graph-DhctLhqp.jpg 2200w" sizes="(max-width: 760px) 90vw, 1000px" alt="Strata's graph view showing linked pages as colored nodes" width="2200" height="1375" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="layer layer-2">
+              <img src="/strata/assets/board-CLVHyb1r.jpg" srcset="/strata/assets/board-sm-DeiipOuF.jpg 1100w, /strata/assets/board-CLVHyb1r.jpg 2200w" sizes="(max-width: 760px) 90vw, 1000px" alt="A Strata database shown as a board with Backlog, In progress and Done columns" width="2200" height="1375" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="layer layer-1">
+              <img src="/strata/assets/editor-ai-BIJ7d2tc.jpg" srcset="/strata/assets/editor-ai-sm-BzFB7S-8.jpg 1100w, /strata/assets/editor-ai-BIJ7d2tc.jpg 2200w" sizes="(max-width: 760px) 94vw, 1100px" alt="The Strata editor with the local AI panel summarizing the page" width="2200" height="1375" fetchpriority="high" decoding="async" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ ticker -->
+      <section class="ticker" aria-label="Highlights">
+        <div class="ticker-track">
+          <span>Works offline</span><i></i><span>No account</span><i></i><span>Private AI via Ollama</span><i></i>
+          <span>⌘K for everything</span><i></i><span>14 field types</span><i></i><span>Board · Grid · Calendar</span><i></i>
+          <span>Graph of your thinking</span><i></i><span>Markdown in, Markdown out</span><i></i>
+          <span aria-hidden="true">Works offline</span><i></i><span aria-hidden="true">No account</span><i></i><span aria-hidden="true">Private AI via Ollama</span><i></i>
+          <span aria-hidden="true">⌘K for everything</span><i></i><span aria-hidden="true">14 field types</span><i></i><span aria-hidden="true">Board · Grid · Calendar</span><i></i>
+          <span aria-hidden="true">Graph of your thinking</span><i></i><span aria-hidden="true">Markdown in, Markdown out</span><i></i>
+        </div>
+      </section>
+
+      <!-- ============================================================ features -->
+      <section class="section" id="features">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <p class="kicker">What's inside</p>
+            <h2>Everything you need to think.<br />Nothing that phones home.</h2>
+          </header>
+
+          <div class="bento">
+            <article class="card card-wide reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-ember">Local-first</span>
+                <h3>Yours, offline, instantly</h3>
+                <p>Every page and database is a row in a SQLite file that lives on your device: in your browser's storage on the web, on disk in the Mac app. There's no spinner and no sync queue, and it keeps working without a connection.</p>
+              </div>
+              <div class="layers-art" aria-hidden="true">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </article>
+
+            <article class="card card-tall reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-violet">Private AI</span>
+                <h3>An assistant that can't leak</h3>
+                <p>Summaries, rewrites, auto-tags and "ask your notes" run on <a href="https://ollama.com" rel="noopener">Ollama</a> on your own computer. Strata only ever talks to <code>localhost</code>.</p>
+              </div>
+              <div class="shot-crop crop-ai"><img src="/strata/assets/editor-ai-sm-BzFB7S-8.jpg" alt="The AI panel's summary and its Insert, Copy and Retry buttons" width="1100" height="688" loading="lazy" decoding="async" /></div>
+            </article>
+
+            <article class="card reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-amber">⌘K</span>
+                <h3>One shortcut for everything</h3>
+                <p>Jump to any page, search every word, run any command or ask the AI. You never need the mouse.</p>
+              </div>
+              <div class="shot-crop crop-palette"><img src="/strata/assets/palette-sm-D-jNXIie.jpg" alt="The command palette searching for 'ollama'" width="1100" height="688" loading="lazy" decoding="async" /></div>
+            </article>
+
+            <article class="card reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-teal">Graph</span>
+                <h3>See how ideas connect</h3>
+                <p>Every <code>[[link]]</code> and <code>@mention</code> becomes an edge. Filter by type or tag, and zoom into the clusters.</p>
+              </div>
+              <div class="shot-crop crop-graph"><img src="/strata/assets/graph-sm-D-GpHQ0A.jpg" alt="The graph view's linked nodes" width="1100" height="688" loading="lazy" decoding="async" /></div>
+            </article>
+
+            <article class="card reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-sky">Databases</span>
+                <h3>Tables that think like docs</h3>
+                <p>Grid, board and calendar views over the same data, with 14 field types, filters, sorts and relations. Every row is a full page.</p>
+              </div>
+              <div class="shot-crop crop-grid"><img src="/strata/assets/grid-sm-CzMx7BXW.jpg" alt="The Reading list database in grid view" width="1100" height="688" loading="lazy" decoding="async" /></div>
+            </article>
+
+            <article class="card card-wide reveal" data-tilt>
+              <div class="card-text">
+                <span class="badge b-rose">Block editor</span>
+                <h3>Type <kbd>/</kbd> and build</h3>
+                <p>Headings, to-dos, toggles, callouts, tables, code, math and images. Link pages with <kbd>[[</kbd>, mention them with <kbd>@</kbd>, and drag any block into place. Import and export Markdown whenever you like.</p>
+              </div>
+              <div class="shot-crop crop-slash"><img src="/strata/assets/slash-sm-pB2lWqPd.jpg" alt="The slash menu listing block types" width="1100" height="688" loading="lazy" decoding="async" /></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ tour -->
+      <section class="section tour" id="tour">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <p class="kicker">Take the tour</p>
+            <h2>One calm workspace, many shapes.</h2>
+          </header>
+          <div class="tour-tabs reveal" role="tablist" aria-label="Product tour">
+            <button role="tab" aria-selected="true" aria-controls="tour-panel" data-shot="editor-ai">Editor + AI</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="slash">Slash menu</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="palette">⌘K palette</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="board">Board</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="grid">Grid</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="graph">Graph</button>
+          </div>
+          <div class="tour-frame reveal" id="tour-panel" role="tabpanel">
+            <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>Strata</span></div>
+            <div class="tour-screens">
+              <img class="is-on" data-screen="editor-ai" src="/strata/assets/editor-ai-BIJ7d2tc.jpg" alt="The editor with the AI summary panel" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="slash" src="/strata/assets/slash-hFtldNaD.jpg" alt="The slash menu for inserting blocks" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="palette" src="/strata/assets/palette-B-62M-8n.jpg" alt="The command palette" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="board" src="/strata/assets/board-CLVHyb1r.jpg" alt="A database as a board" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="grid" src="/strata/assets/grid-BfyiuzsF.jpg" alt="A database as a grid" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="graph" src="/strata/assets/graph-DhctLhqp.jpg" alt="The graph view" width="2200" height="1375" loading="lazy" decoding="async" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ privacy -->
+      <section class="section privacy" id="privacy">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <p class="kicker">Privacy, by architecture</p>
+            <h2>The only server is the one<br />that sent you this page.</h2>
+            <p class="section-lede">Strata isn't private because of a policy. It's private because there's nowhere else for your data to go.</p>
+          </header>
+          <div class="pillars">
+            <div class="pillar reveal">
+              <div class="pillar-num">0</div>
+              <h3>Servers</h3>
+              <p>No backend and no sync service. The app is static files, and everything after the first load happens on your device.</p>
+            </div>
+            <div class="pillar reveal">
+              <div class="pillar-num">0</div>
+              <h3>Accounts</h3>
+              <p>No email, no password, no signup wall. Open it and start writing. There's nothing to log into.</p>
+            </div>
+            <div class="pillar reveal">
+              <div class="pillar-num">0</div>
+              <h3>Trackers</h3>
+              <p>No analytics, no cookies and no third-party scripts. The AI only connects to <code>localhost</code>, and that's enforced in code.</p>
+            </div>
+          </div>
+          <div class="flow reveal" aria-label="Where your data goes">
+            <div class="flow-node"><b>You</b><small>type a note</small></div>
+            <div class="flow-line"><span></span></div>
+            <div class="flow-node"><b>Strata</b><small>in your browser or Mac app</small></div>
+            <div class="flow-line"><span></span></div>
+            <div class="flow-node"><b>SQLite</b><small>on this device</small></div>
+            <div class="flow-line dashed"><span></span></div>
+            <div class="flow-node is-optional"><b>Ollama</b><small>localhost, optional</small></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ faq -->
+      <section class="section faq" id="faq">
+        <div class="wrap wrap-narrow">
+          <header class="section-head reveal">
+            <p class="kicker">FAQ</p>
+            <h2>Good questions.</h2>
+          </header>
+
+          <details class="reveal" open>
+            <summary>Where does my data live?</summary>
+            <div class="answer">
+              <p>On the web, your workspace is a SQLite database (running as WebAssembly) saved in your browser's IndexedDB for this site. It stays on this device and in this browser profile. Clearing site data deletes it, so use <b>Settings → Back up workspace</b> now and then to keep a copy.</p>
+              <p>In the Mac app, it's a SQLite file in your user's Application Support folder. In both cases it's never uploaded anywhere.</p>
+            </div>
+          </details>
+
+          <details class="reveal">
+            <summary>How do I turn on the AI in the web version?</summary>
+            <div class="answer">
+              <p>Install <a href="https://ollama.com" rel="noopener">Ollama</a> and pull a model (for example <code>ollama pull llama3.2</code>). Ollama blocks websites by default, so start it with this site allowed:</p>
+              <pre><code><span class="copy-target">OLLAMA_ORIGINS="https://ladzgo.github.io" ollama serve</span><button type="button" class="copy" data-copy aria-label="Copy command">Copy</button></code></pre>
+              <p>If the Ollama menu-bar app is already running, quit it first. Your browser may ask whether this page can reach devices on your local network; allow it. The Mac app doesn't need any of this and connects to Ollama directly.</p>
+            </div>
+          </details>
+
+          <details class="reveal">
+            <summary>The Mac app says it can't be opened. Is it safe?</summary>
+            <div class="answer">
+              <p>The v0.1.0 build isn't signed with an Apple Developer ID yet, so macOS warns you the first time. To open it:</p>
+              <ol>
+                <li>Open the DMG and drag <b>Strata</b> into Applications.</li>
+                <li>Double-click Strata. When macOS blocks it, click <b>Done</b>.</li>
+                <li>Go to <b>System Settings → Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b> next to the Strata message, then confirm.</li>
+              </ol>
+              <p>You only need to do this once. The build is for Apple silicon Macs (M1 and later).</p>
+            </div>
+          </details>
+
+          <details class="reveal">
+            <summary>Do I need an account, or the internet?</summary>
+            <div class="answer"><p>No account, ever. You need a connection once to load the page; after that, your workspace and editor run locally. The Mac app never needs the internet at all.</p></div>
+          </details>
+
+          <details class="reveal">
+            <summary>Can I get my data out?</summary>
+            <div class="answer"><p>Yes. Export pages as Markdown or HTML, databases as CSV, and your whole workspace as a JSON backup. Import Markdown, CSV or a backup in either the web or the Mac version.</p></div>
+          </details>
+
+          <details class="reveal">
+            <summary>Does the web version sync with the Mac app?</summary>
+            <div class="answer"><p>Not automatically. Nothing syncs, because there's no server to sync through. To move a workspace, export a backup from one and import it into the other.</p></div>
+          </details>
+
+          <details class="reveal">
+            <summary>What does it cost?</summary>
+            <div class="answer"><p>Nothing. There's no paid tier and nothing to upgrade to.</p></div>
+          </details>
+        </div>
+      </section>
+
+      <!-- ============================================================ final cta -->
+      <section class="final">
+        <div class="final-bg" aria-hidden="true"><div class="glow glow-a"></div><div class="glow glow-b"></div></div>
+        <div class="wrap final-inner reveal">
+          <img class="final-logo" src="/strata/strata.svg" alt="" width="72" height="72" />
+          <h2>Your next idea deserves<br />a place that's <em>yours</em>.</h2>
+          <div class="cta-row">
+            <a class="btn btn-primary btn-big" href="app/" data-open-app>
+              <span class="btn-label">Open Strata</span>
+              <span class="btn-sub">free, in your browser</span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" /></svg>
+            </a>
+            <a class="btn btn-ghost btn-big" href="https://github.com/Ladzgo/strata/releases/download/v0.1.0/Strata_0.1.0_aarch64.dmg" data-download>
+              <svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.8-1.1-2.8-4.2zM13.9 5.1c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z" /></svg>
+              <span class="btn-label">Download for Mac</span>
+              <span class="btn-sub">v0.1.0 · Apple silicon</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="#top"><img src="/strata/strata.svg" alt="" width="22" height="22" /><span>Strata</span></a>
+        <p>Made to stay on your machine. No cookies, no analytics.</p>
+        <nav aria-label="Footer">
+          <a href="app/" data-open-app>Open app</a>
+          <a href="https://github.com/Ladzgo/strata/releases/tag/v0.1.0">Releases</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </footer>
+
+  </body>
+</html>
