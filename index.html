@@ -100,10 +100,10 @@
       <!-- ============================================================ ticker -->
       <section class="ticker" aria-label="Highlights">
         <div class="ticker-track">
-          <span>Works offline</span><i></i><span>No account</span><i></i><span>Private AI via Ollama</span><i></i>
+          <span>Works offline</span><i></i><span>No account</span><i></i><span>Private AI, on-device</span><i></i>
           <span>⌘K for everything</span><i></i><span>14 field types</span><i></i><span>Board · Grid · Calendar</span><i></i>
           <span>Graph of your thinking</span><i></i><span>Markdown in, Markdown out</span><i></i>
-          <span aria-hidden="true">Works offline</span><i></i><span aria-hidden="true">No account</span><i></i><span aria-hidden="true">Private AI via Ollama</span><i></i>
+          <span aria-hidden="true">Works offline</span><i></i><span aria-hidden="true">No account</span><i></i><span aria-hidden="true">Private AI, on-device</span><i></i>
           <span aria-hidden="true">⌘K for everything</span><i></i><span aria-hidden="true">14 field types</span><i></i><span aria-hidden="true">Board · Grid · Calendar</span><i></i>
           <span aria-hidden="true">Graph of your thinking</span><i></i><span aria-hidden="true">Markdown in, Markdown out</span><i></i>
         </div>
@@ -133,7 +133,7 @@
               <div class="card-text">
                 <span class="badge b-violet">Private AI</span>
                 <h3>An assistant that can't leak</h3>
-                <p>Summaries, rewrites, auto-tags and "ask your notes" run on <a href="https://ollama.com" rel="noopener">Ollama</a> on your own computer. Strata only ever talks to <code>localhost</code>.</p>
+                <p>Summaries, rewrites, auto-tags and "ask your notes" run on your own device: right in your browser on WebGPU, with nothing to set up, or on <a href="https://ollama.com" rel="noopener">Ollama</a> when you have it. Your text never leaves.</p>
               </div>
               <div class="shot-crop crop-ai"><img src="/strata/assets/editor-ai-sm-BzFB7S-8.jpg" alt="The AI panel's summary and its Insert, Copy and Retry buttons" width="1100" height="688" loading="lazy" decoding="async" /></div>
             </article>
@@ -218,7 +218,7 @@
             <div class="pillar reveal">
               <div class="pillar-num">0</div>
               <h3>Servers</h3>
-              <p>No backend and no sync service. The app is static files, and everything after the first load happens on your device.</p>
+              <p>No backend and no sync service. The app is static files, and your notes are only ever stored and processed on your device.</p>
             </div>
             <div class="pillar reveal">
               <div class="pillar-num">0</div>
@@ -228,7 +228,7 @@
             <div class="pillar reveal">
               <div class="pillar-num">0</div>
               <h3>Trackers</h3>
-              <p>No analytics, no cookies and no third-party scripts. The AI only connects to <code>localhost</code>, and that's enforced in code.</p>
+              <p>No analytics, no cookies and no third-party scripts. The AI runs on your device, and Strata refuses to send text anywhere but <code>localhost</code>.</p>
             </div>
           </div>
           <div class="flow reveal" aria-label="Where your data goes">
@@ -238,7 +238,7 @@
             <div class="flow-line"><span></span></div>
             <div class="flow-node"><b>SQLite</b><small>on this device</small></div>
             <div class="flow-line dashed"><span></span></div>
-            <div class="flow-node is-optional"><b>Ollama</b><small>localhost, optional</small></div>
+            <div class="flow-node is-optional"><b>AI</b><small>in your browser or Ollama</small></div>
           </div>
         </div>
       </section>
@@ -260,11 +260,12 @@
           </details>
 
           <details class="reveal">
-            <summary>How do I turn on the AI in the web version?</summary>
+            <summary>Does the AI need any setup?</summary>
             <div class="answer">
-              <p>Install <a href="https://ollama.com" rel="noopener">Ollama</a> and pull a model (for example <code>ollama pull llama3.2</code>). Ollama blocks websites by default, so start it with this site allowed:</p>
+              <p>No. The first time you use an AI feature on the web, Strata downloads a small open model (Qwen2.5 1.5B, about 900 MB) into your browser's cache, once, and runs it on your GPU with WebGPU. Your notes and prompts never leave the page; the model download is the only thing fetched. It works in recent Chrome, Edge and Safari.</p>
+              <p>Want bigger models? Install <a href="https://ollama.com" rel="noopener">Ollama</a>, pull one (for example <code>ollama pull llama3.2</code>), and start it with this site allowed. Strata switches to it automatically:</p>
               <pre><code><span class="copy-target">OLLAMA_ORIGINS="https://ladzgo.github.io" ollama serve</span><button type="button" class="copy" data-copy aria-label="Copy command">Copy</button></code></pre>
-              <p>If the Ollama menu-bar app is already running, quit it first. Your browser may ask whether this page can reach devices on your local network; allow it. The Mac app doesn't need any of this and connects to Ollama directly.</p>
+              <p>If the Ollama menu-bar app is already running, quit it first. Your browser may ask whether this page can reach devices on your local network; allow it. The Mac app uses Ollama and connects to it directly.</p>
             </div>
           </details>
 
