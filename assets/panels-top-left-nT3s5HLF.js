@@ -1,1 +1,0 @@
-import{Ln as e}from"./app-DC0ojVci.js";var t={name:`panels-top-left`,size:24,node:[[`rect`,{width:`18`,height:`18`,x:`3`,y:`3`,rx:`2`,key:`afitv7`}],[`path`,{d:`M3 9h18`,key:`1pudct`}],[`path`,{d:`M9 21V9`,key:`1oto5p`}]],aliases:[`layout`]};t.node;var n=e(t);export{t as __iconData,n as default};
