@@ -1,0 +1,1 @@
+import{Jn as e}from"./app-C0Ic2Hji.js";var t={name:`chevrons-down-up`,size:24,node:[[`path`,{d:`m7 20 5-5 5 5`,key:`13a0gw`}],[`path`,{d:`m7 4 5 5 5-5`,key:`1kwcof`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
