@@ -16,10 +16,10 @@
       // Apply a saved theme before first paint so there is no flash.
       try { const t = localStorage.getItem("strata-landing-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
     </script>
-    <script type="module" crossorigin src="/strata/assets/landing-DB_zYZ97.js"></script>
+    <script type="module" crossorigin src="/strata/assets/landing-7w5JMMIm.js"></script>
     <link rel="modulepreload" crossorigin href="/strata/assets/fraunces-Bw4xECud.js">
     <link rel="stylesheet" crossorigin href="/strata/assets/fraunces-CSucOKDI.css">
-    <link rel="stylesheet" crossorigin href="/strata/assets/landing-CQ-tHzle.css">
+    <link rel="stylesheet" crossorigin href="/strata/assets/landing-Cs1vM2WO.css">
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -50,6 +50,8 @@
       <!-- ============================================================ hero -->
       <section class="hero" id="top">
         <div class="hero-bg" aria-hidden="true">
+          <div class="grid-bg"></div>
+          <div class="beam"></div>
           <div class="glow glow-a"></div>
           <div class="glow glow-b"></div>
           <svg class="contours" viewBox="0 0 1200 600" preserveAspectRatio="none">
@@ -61,7 +63,10 @@
         </div>
 
         <div class="wrap hero-copy">
-          <p class="eyebrow reveal"><span class="dot"></span> Free · Local-first · Private AI</p>
+          <a class="eyebrow reveal" href="#features">
+            <span class="eyebrow-tag">New</span> Private AI that runs in your browser, no setup
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg>
+          </a>
           <h1 class="reveal">Think in layers.<br /><em>Own every one.</em></h1>
           <p class="lede reveal">
             Strata is a workspace for notes, docs and databases that lives on <strong>your</strong> machine, with an AI that never
@@ -94,6 +99,15 @@
               <img src="/strata/assets/editor-ai-BIJ7d2tc.jpg" srcset="/strata/assets/editor-ai-sm-BzFB7S-8.jpg 1100w, /strata/assets/editor-ai-BIJ7d2tc.jpg 2200w" sizes="(max-width: 760px) 94vw, 1100px" alt="The Strata editor with the local AI panel summarizing the page" width="2200" height="1375" fetchpriority="high" decoding="async" />
             </figure>
           </div>
+          <div class="chips" aria-hidden="true">
+            <div class="chip chip-save"><span class="chip-check"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg></span><span><b>Saved locally</b><small>SQLite · this device</small></span></div>
+            <div class="chip chip-k"><kbd>⌘</kbd><kbd>K</kbd><span>Jump anywhere</span></div>
+            <div class="chip chip-ai">
+              <div class="chip-ai-head"><span class="chip-spark">✦</span><b>Summary</b><span class="chip-badge">on-device</span></div>
+              <p class="chip-type" data-type="Your notes, docs and databases live on this device. AI runs right here too, so nothing is ever uploaded."></p>
+              <div class="chip-foot"><span class="chip-live"></span>0 bytes sent</div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -114,7 +128,7 @@
         <div class="wrap">
           <header class="section-head reveal">
             <p class="kicker">What's inside</p>
-            <h2>Everything you need to think.<br />Nothing that phones home.</h2>
+            <h2>Everything you need to think. <br />Nothing that phones home.</h2>
           </header>
 
           <div class="bento">
@@ -211,7 +225,7 @@
         <div class="wrap">
           <header class="section-head reveal">
             <p class="kicker">Privacy, by architecture</p>
-            <h2>The only server is the one<br />that sent you this page.</h2>
+            <h2>The only server is the one <br />that sent you this page.</h2>
             <p class="section-lede">Strata isn't private because of a policy. It's private because there's nowhere else for your data to go.</p>
           </header>
           <div class="pillars">
@@ -309,7 +323,7 @@
         <div class="final-bg" aria-hidden="true"><div class="glow glow-a"></div><div class="glow glow-b"></div></div>
         <div class="wrap final-inner reveal">
           <img class="final-logo" src="/strata/strata.svg" alt="" width="72" height="72" />
-          <h2>Your next idea deserves<br />a place that's <em>yours</em>.</h2>
+          <h2>Your next idea deserves <br />a place that's <em>yours</em>.</h2>
           <div class="cta-row">
             <a class="btn btn-primary btn-big" href="app/" data-open-app>
               <span class="btn-label">Open Strata</span>
