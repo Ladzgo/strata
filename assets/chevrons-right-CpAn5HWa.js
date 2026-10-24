@@ -1,1 +1,0 @@
-import{Jn as e}from"./app-C0Ic2Hji.js";var t={name:`chevrons-right`,size:24,node:[[`path`,{d:`m6 17 5-5-5-5`,key:`xnjwq`}],[`path`,{d:`m13 17 5-5-5-5`,key:`17xmmf`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

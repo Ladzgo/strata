@@ -1,0 +1,1 @@
+import{$n as e}from"./app-Do8T0ffs.js";var t={name:`handle-bottom-right`,size:24,node:[[`path`,{d:`M21 8 8 21`,key:`16gpkk`}],[`path`,{d:`m21 15-6 6`,key:`1kohh4`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

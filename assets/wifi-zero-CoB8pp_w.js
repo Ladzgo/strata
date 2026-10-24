@@ -1,0 +1,1 @@
+import{$n as e}from"./app-Do8T0ffs.js";var t={name:`wifi-zero`,size:24,node:[[`path`,{d:`M12 20h.01`,key:`zekei9`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

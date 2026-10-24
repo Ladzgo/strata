@@ -1,0 +1,1 @@
+import{$n as e}from"./app-Do8T0ffs.js";var t={name:`line-dot-left-horizontal`,size:24,node:[[`path`,{d:`M9 12h12`,key:`nafxnq`}],[`circle`,{cx:`6`,cy:`12`,r:`3`,key:`w7nqdw`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
