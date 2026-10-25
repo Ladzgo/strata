@@ -1,1 +1,0 @@
-import{$n as e}from"./app-Do8T0ffs.js";var t={name:`armenian-dram`,size:24,node:[[`path`,{d:`M11 10h8`,key:`cn0dty`}],[`path`,{d:`M11 14h8`,key:`lksjnm`}],[`path`,{d:`M17 20V10a6 6 0 0 0-12 0`,key:`1gdsmd`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

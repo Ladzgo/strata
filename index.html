@@ -16,10 +16,10 @@
       // Apply a saved theme before first paint so there is no flash.
       try { const t = localStorage.getItem("strata-landing-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
     </script>
-    <script type="module" crossorigin src="/strata/assets/landing-7w5JMMIm.js"></script>
+    <script type="module" crossorigin src="/strata/assets/landing-DgD4Mes0.js"></script>
     <link rel="modulepreload" crossorigin href="/strata/assets/fraunces-Bw4xECud.js">
     <link rel="stylesheet" crossorigin href="/strata/assets/fraunces-CSucOKDI.css">
-    <link rel="stylesheet" crossorigin href="/strata/assets/landing-Cs1vM2WO.css">
+    <link rel="stylesheet" crossorigin href="/strata/assets/landing-5cidx_8o.css">
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -31,6 +31,7 @@
           <span>Strata</span>
         </a>
         <nav class="nav-links" aria-label="Sections">
+          <a href="#only">New</a>
           <a href="#features">Features</a>
           <a href="#tour">Tour</a>
           <a href="#privacy">Privacy</a>
@@ -63,8 +64,8 @@
         </div>
 
         <div class="wrap hero-copy">
-          <a class="eyebrow reveal" href="#features">
-            <span class="eyebrow-tag">New</span> Private AI that runs in your browser, no setup
+          <a class="eyebrow reveal" href="#only">
+            <span class="eyebrow-tag">New</span> Whiteboard, live math, slides and flashcards
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg>
           </a>
           <h1 class="reveal">Think in layers.<br /><em>Own every one.</em></h1>
@@ -117,9 +118,72 @@
           <span>Works offline</span><i></i><span>No account</span><i></i><span>Private AI, on-device</span><i></i>
           <span>⌘K for everything</span><i></i><span>14 field types</span><i></i><span>Board · Grid · Calendar</span><i></i>
           <span>Graph of your thinking</span><i></i><span>Markdown in, Markdown out</span><i></i>
+          <span>Infinite canvas</span><i></i><span>Text → diagram</span><i></i><span>Live math</span><i></i><span>Slides from any page</span><i></i><span>Spaced-repetition flashcards</span><i></i>
           <span aria-hidden="true">Works offline</span><i></i><span aria-hidden="true">No account</span><i></i><span aria-hidden="true">Private AI, on-device</span><i></i>
           <span aria-hidden="true">⌘K for everything</span><i></i><span aria-hidden="true">14 field types</span><i></i><span aria-hidden="true">Board · Grid · Calendar</span><i></i>
           <span aria-hidden="true">Graph of your thinking</span><i></i><span aria-hidden="true">Markdown in, Markdown out</span><i></i>
+          <span aria-hidden="true">Infinite canvas</span><i></i><span aria-hidden="true">Text → diagram</span><i></i><span aria-hidden="true">Live math</span><i></i><span aria-hidden="true">Slides from any page</span><i></i><span aria-hidden="true">Spaced-repetition flashcards</span><i></i>
+        </div>
+      </section>
+
+      <!-- ============================================================ only in strata -->
+      <section class="section only" id="only">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <p class="kicker">Only in Strata</p>
+            <h2>Notes that calculate, present, <br />quiz you and remember.</h2>
+            <p class="section-lede">Things you'd need five apps for, built into one quiet workspace, and none of them leave your device.</p>
+          </header>
+          <div class="only-grid">
+            <article class="only-card reveal only-wide">
+              <div class="only-text">
+                <span class="badge b-violet">Whiteboard</span>
+                <h3>Think on an infinite canvas</h3>
+                <p>Stickies, shapes, pen and connectors that route around things. Type a Mermaid flowchart or a simple outline and get an editable diagram, laid out for you. Auto-layout, swimlanes and quick-connect included.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/canvas-sm-C-hJZred.jpg" srcset="/strata/assets/canvas-sm-C-hJZred.jpg 1100w, /strata/assets/canvas-BmLpfoUO.jpg 2200w" sizes="(max-width: 760px) 92vw, 1100px" alt="A flowchart on the Strata canvas made from typed text" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+            <article class="only-card reveal">
+              <div class="only-text">
+                <span class="badge b-amber">Live math</span>
+                <h3>Your notes can count</h3>
+                <p>Write <code>Total = flights + hotel</code> or <code>With tip = total + 10%</code> and the answer appears as you type. Named values carry down the page.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/math-sm-DRe-8ptM.jpg" srcset="/strata/assets/math-sm-DRe-8ptM.jpg 1100w, /strata/assets/math-CSIN1RJ5.jpg 2200w" sizes="(max-width: 760px) 92vw, 560px" alt="A trip budget calculating itself line by line" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+            <article class="only-card reveal">
+              <div class="only-text">
+                <span class="badge b-rose">Instant slides</span>
+                <h3>Any page is a presentation</h3>
+                <p>Press <kbd>⌘⇧↩</kbd>: every heading starts a slide, in the page's own design. Arrow keys, full screen, done.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/slides-sm-Cons-M93.jpg" srcset="/strata/assets/slides-sm-Cons-M93.jpg 1100w, /strata/assets/slides-mAwGB_iK.jpg 2200w" sizes="(max-width: 760px) 92vw, 560px" alt="A page presented as a full-screen slide" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+            <article class="only-card reveal">
+              <div class="only-text">
+                <span class="badge b-teal">Flashcards</span>
+                <h3>Learn what you write</h3>
+                <p>Any <code>Question :: Answer</code> line becomes a card. Strata quizzes you right before you'd forget, with the same method serious learners use.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/cards-sm-BXGVSuof.jpg" srcset="/strata/assets/cards-sm-BXGVSuof.jpg 1100w, /strata/assets/cards-CMcKbm1f.jpg 2200w" sizes="(max-width: 760px) 92vw, 560px" alt="A flashcard review with Again, Hard, Good and Easy" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+            <article class="only-card reveal">
+              <div class="only-text">
+                <span class="badge b-sky">Page design</span>
+                <h3>Make each page your own</h3>
+                <p>Notebook lines, blueprint grids, any background and any font, at any size from 1 to 200. Per page, in one click.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/design-sm-BtaRBlB6.jpg" srcset="/strata/assets/design-sm-BtaRBlB6.jpg 1100w, /strata/assets/design-qGiZTLmM.jpg 2200w" sizes="(max-width: 760px) 92vw, 560px" alt="A page styled as a handwritten notebook" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+            <article class="only-card reveal only-wide">
+              <div class="only-text">
+                <span class="badge b-ember">Time travel</span>
+                <h3>Nothing you write is ever lost</h3>
+                <p>Strata keeps versions as you write. Scrub through them, see exactly what changed, and restore any of them.</p>
+              </div>
+              <figure class="only-shot"><img src="/strata/assets/history-sm-Yn9guKsm.jpg" srcset="/strata/assets/history-sm-Yn9guKsm.jpg 1100w, /strata/assets/history-ClQzYwEq.jpg 2200w" sizes="(max-width: 760px) 92vw, 1100px" alt="Page history showing what changed since an earlier version" width="1100" height="688" loading="lazy" decoding="async" /></figure>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -205,6 +269,8 @@
             <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="board">Board</button>
             <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="grid">Grid</button>
             <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="graph">Graph</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="home">Home</button>
+            <button role="tab" aria-selected="false" aria-controls="tour-panel" data-shot="canvas">Canvas</button>
           </div>
           <div class="tour-frame reveal" id="tour-panel" role="tabpanel">
             <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>Strata</span></div>
@@ -215,6 +281,8 @@
               <img data-screen="board" src="/strata/assets/board-CLVHyb1r.jpg" alt="A database as a board" width="2200" height="1375" loading="lazy" decoding="async" />
               <img data-screen="grid" src="/strata/assets/grid-BfyiuzsF.jpg" alt="A database as a grid" width="2200" height="1375" loading="lazy" decoding="async" />
               <img data-screen="graph" src="/strata/assets/graph-DhctLhqp.jpg" alt="The graph view" width="2200" height="1375" loading="lazy" decoding="async" />
+              <img data-screen="home" src="/strata/assets/home-BiHlAf-L.jpg" alt="The Home screen with quick actions and recent pages" width="2200" height="1376" loading="lazy" decoding="async" />
+              <img data-screen="canvas" src="/strata/assets/canvas-BmLpfoUO.jpg" alt="A flowchart on the canvas" width="2200" height="1376" loading="lazy" decoding="async" />
             </div>
           </div>
         </div>

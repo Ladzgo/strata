@@ -1,1 +1,0 @@
-import{$n as e}from"./app-Do8T0ffs.js";var t={name:`circle-chevrons-right`,size:24,node:[[`path`,{d:`M14 15L17 12L14 9`,key:`1hxjqw`}],[`path`,{d:`M8 15L11 12L8 9`,key:`1wss1f`}],[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
