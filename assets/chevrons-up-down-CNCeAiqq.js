@@ -1,1 +1,0 @@
-import{Er as e}from"./app-DglKtfJv.js";var t={name:`chevrons-up-down`,size:24,node:[[`path`,{d:`m7 15 5 5 5-5`,key:`1hf1tw`}],[`path`,{d:`m7 9 5-5 5 5`,key:`sgt6xg`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

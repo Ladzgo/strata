@@ -1,1 +1,0 @@
-import{Er as e}from"./app-DglKtfJv.js";var t={name:`usb-c-port`,size:24,node:[[`path`,{d:`M6 12h12`,key:`8npq4p`}],[`rect`,{x:`2`,y:`8`,width:`20`,height:`8`,rx:`4`,key:`86l77p`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

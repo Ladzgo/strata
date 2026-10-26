@@ -1,1 +1,0 @@
-import{Er as e}from"./app-DglKtfJv.js";var t={name:`navigation-2`,size:24,node:[[`polygon`,{points:`12 2 19 21 12 17 5 21 12 2`,key:`x8c0qg`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

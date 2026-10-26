@@ -1,1 +1,0 @@
-import{Er as e}from"./app-DglKtfJv.js";var t={name:`rectangle-vertical`,size:24,node:[[`rect`,{width:`12`,height:`20`,x:`6`,y:`2`,rx:`2`,key:`1oxtiu`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
