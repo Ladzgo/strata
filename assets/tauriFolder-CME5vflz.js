@@ -1,0 +1,1 @@
+import{exists as e,mkdir as t,readDir as n,readFile as r,remove as i,rename as a,writeFile as o}from"./dist-js-BRFu0lan.js";function s(){return{async list(t){return await e(t)?(await n(t)).map(e=>e.name):[]},read:e=>r(e),async write(e,t){let n=`${e}.part`;await o(n,t),await a(n,e)},mkdir:e=>t(e,{recursive:!0}),remove:e=>i(e)}}export{s as tauriFolder};

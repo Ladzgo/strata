@@ -1,1 +1,0 @@
-import{n as e}from"./core-C-EANZIQ.js";async function t(t={}){return typeof t==`object`&&Object.freeze(t),await e(`plugin:dialog|save`,{options:t})}export{t as save};
