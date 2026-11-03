@@ -1,0 +1,1 @@
+import{Br as e}from"./app-Tyz_2lZ3.js";var t={name:`circle-small`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`6`,key:`1vlfrh`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
