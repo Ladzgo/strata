@@ -1,0 +1,1 @@
+import{Vr as e}from"./app-DXD4H7hQ.js";var t={name:`circle`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
