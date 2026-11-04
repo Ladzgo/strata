@@ -9,20 +9,20 @@
 //   the cached shell after a short wait.
 // - A new version waits until the page says "update" (the "Update ready" toast), then takes over.
 
-const VERSION = "20fb367d25";
+const VERSION = "3dc9c51404";
 const PRECACHE = [
   "/strata/app/index.html",
   "/strata/manifest.webmanifest",
   "/strata/icons/icon-192.png",
   "/strata/icons/apple-touch-icon.png",
-  "/strata/assets/app-BIL0vZ6b.js",
+  "/strata/assets/app-DfmeIr4T.js",
   "/strata/assets/rolldown-runtime-BCiCTKAo.js",
   "/strata/assets/fraunces-Bw4xECud.js",
   "/strata/assets/react-BWPDF9mI.js",
   "/strata/assets/preload-helper-BLi_Ytyw.js",
-  "/strata/assets/service-Dg5U3kv_.js",
+  "/strata/assets/service-DYCbwPrX.js",
   "/strata/assets/fraunces-CSucOKDI.css",
-  "/strata/assets/app-BxLH4aki.css",
+  "/strata/assets/app-DMqmxutd.css",
   "/strata/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
   "/strata/assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
   "/strata/assets/fraunces-latin-ext-wght-normal-Ca2vKHc0.woff2",
@@ -32,6 +32,7 @@ const PRECACHE = [
   "/strata/assets/caveat-latin-ext-wght-normal-Byk3UhVp.woff2",
   "/strata/assets/caveat-latin-wght-normal-C1hSzPvX.woff2",
   "/strata/assets/ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
+  "/strata/assets/ort-wasm-simd-threaded.jsep-Dt1SEu-e.wasm",
   "/strata/assets/sql-wasm-C1D_RJuy.wasm"
 ];
 const SHELL = `strata-shell-${VERSION}`;
