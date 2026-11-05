@@ -1,0 +1,1 @@
+import{Hr as e}from"./app-Do1iR8_r.js";var t={name:`stretch-horizontal`,size:24,node:[[`rect`,{width:`20`,height:`6`,x:`2`,y:`4`,rx:`2`,key:`qdearl`}],[`rect`,{width:`20`,height:`6`,x:`2`,y:`14`,rx:`2`,key:`1xrn6j`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

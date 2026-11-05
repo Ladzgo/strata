@@ -1,0 +1,1 @@
+import{Hr as e}from"./app-Do1iR8_r.js";var t={name:`circle-small`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`6`,key:`1vlfrh`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
