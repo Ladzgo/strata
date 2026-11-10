@@ -1,1 +1,0 @@
-import{o as e}from"./rolldown-runtime-BCiCTKAo.js";import{t}from"./react-BWPDF9mI.js";import{it as n}from"./app-CsL0HDfV.js";var r=e(t(),1);function i(e,t){(0,r.useEffect)(()=>{let t=!0;return e.current?.querySelectorAll(`img[data-asset]:not([src])`).forEach(e=>{n(e.dataset.asset).then(n=>{t&&n&&(e.src=n)})}),()=>{t=!1}},t)}export{i as t};
