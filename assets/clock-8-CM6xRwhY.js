@@ -1,1 +1,0 @@
-import{_a as e}from"./app-BF4RuE6V.js";var t={name:`clock-8`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l-4 2`,key:`imc3wl`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

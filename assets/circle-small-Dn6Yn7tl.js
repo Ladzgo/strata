@@ -1,1 +1,0 @@
-import{_a as e}from"./app-BF4RuE6V.js";var t={name:`circle-small`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`6`,key:`1vlfrh`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
