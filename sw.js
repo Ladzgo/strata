@@ -9,21 +9,21 @@
 //   the cached shell after a short wait.
 // - A new version waits until the page says "update" (the "Update ready" toast), then takes over.
 
-const VERSION = "80e02fe895";
+const VERSION = "9aa350c12c";
 const PRECACHE = [
   "/strata/app/index.html",
   "/strata/manifest.webmanifest",
   "/strata/icons/icon-192.png",
   "/strata/icons/apple-touch-icon.png",
-  "/strata/assets/app-CB1CuazJ.js",
+  "/strata/assets/app-Duj1tmWD.js",
   "/strata/assets/rolldown-runtime-BCiCTKAo.js",
   "/strata/assets/fraunces-Bw4xECud.js",
   "/strata/assets/react-BWPDF9mI.js",
   "/strata/assets/blocks-IQ3YGT95.js",
   "/strata/assets/preload-helper-BLi_Ytyw.js",
-  "/strata/assets/service-CvO-nbSy.js",
+  "/strata/assets/service-FhhE9YKu.js",
   "/strata/assets/fraunces-CSucOKDI.css",
-  "/strata/assets/app-Dn9Ypl36.css",
+  "/strata/assets/app-BI88gAKx.css",
   "/strata/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
   "/strata/assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
   "/strata/assets/fraunces-latin-ext-wght-normal-Ca2vKHc0.woff2",

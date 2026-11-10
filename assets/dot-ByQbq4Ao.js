@@ -1,1 +1,0 @@
-import{Wi as e}from"./app-CB1CuazJ.js";var t={name:`dot`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`1`,key:`41hilf`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
