@@ -1,1 +1,0 @@
-import{Qr as e}from"./app-DMk-Fv3Z.js";var t={name:`square-minus`,size:24,node:[[`rect`,{width:`18`,height:`18`,x:`3`,y:`3`,rx:`2`,key:`afitv7`}],[`path`,{d:`M8 12h8`,key:`1wcyev`}]],aliases:[`minus-square`]};t.node;var n=e(t);export{t as __iconData,n as default};
