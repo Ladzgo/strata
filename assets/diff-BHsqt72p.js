@@ -1,0 +1,1 @@
+import{Qr as e}from"./app-DMk-Fv3Z.js";var t={name:`diff`,size:24,node:[[`path`,{d:`M12 3v14`,key:`7cf3v8`}],[`path`,{d:`M5 10h14`,key:`elsbfy`}],[`path`,{d:`M5 21h14`,key:`11awu3`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

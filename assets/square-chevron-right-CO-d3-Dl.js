@@ -1,0 +1,1 @@
+import{Qr as e}from"./app-DMk-Fv3Z.js";var t={name:`square-chevron-right`,size:24,node:[[`rect`,{width:`18`,height:`18`,x:`3`,y:`3`,rx:`2`,key:`afitv7`}],[`path`,{d:`m10 8 4 4-4 4`,key:`1wy4r4`}]],aliases:[`chevron-right-square`]};t.node;var n=e(t);export{t as __iconData,n as default};

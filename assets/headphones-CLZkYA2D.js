@@ -1,0 +1,1 @@
+import{Qr as e}from"./app-DMk-Fv3Z.js";var t={name:`headphones`,size:24,node:[[`path`,{d:`M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3`,key:`1xhozi`}]]};t.node;var n=e(t);export{t as __iconData,n as default};

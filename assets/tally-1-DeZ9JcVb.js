@@ -1,0 +1,1 @@
+import{Qr as e}from"./app-DMk-Fv3Z.js";var t={name:`tally-1`,size:24,node:[[`path`,{d:`M4 4v16`,key:`6qkkli`}]]};t.node;var n=e(t);export{t as __iconData,n as default};
